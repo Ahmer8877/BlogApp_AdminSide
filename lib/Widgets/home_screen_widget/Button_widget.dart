@@ -31,7 +31,7 @@ class ButtonWidget extends StatelessWidget {
               color:color,
               shape: BoxShape.rectangle
           ),
-          child: Text(text.toUpperCase()),
+          child: Center(child: Text(text.toUpperCase())),
         ),
       );
   }
